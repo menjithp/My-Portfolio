@@ -56,9 +56,9 @@ const Navbar = () => {
        {!isMobile && <SiteQuote />}
         <div className=' d-flex justify-content-between align-items-center text-white-50 w-100'>
         {isMobile?<div className='wrapper mobile'>
-          <h1>MENJITH</h1>
+          <h1>MENJITH PORTFOLIO</h1>
         </div>:
-        <p className='p-3 p-md-0 logo fw-bold my-name text-white'>MENJITH</p>}
+        <p className='p-3 p-md-0 logo fw-bold my-name text-white'>MENJITH PORTFOLIO</p>}
         
           {/* menu */}
       <ul className='laptop-menu d-none d-md-flex'>
