@@ -1,0 +1,58 @@
+.card-container{
+    width:300px;
+    background-image: linear-gradient(to right,rgb(17, 24, 39), rgba(17, 24, 39, 0));
+    box-shadow:  rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+    margin:auto;
+    transition: box-shadow 1s;
+}
+.add_box_shadow{
+    box-shadow: var(--blue-color) 0px 22px 70px 4px !important;
+}
+
+@media screen and (max-width:768px){
+    .card-container{
+    width:250px;
+    }
+}
+.card-container:hover{
+    background-image: linear-gradient(to bottom,#111827, rgba(17, 24, 39, 0));
+}
+.card-container:hover .pro-details .project-description{
+    color:white
+}
+.image-container-project{
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    width:100%;
+}
+
+.image-container-project img{
+    object-fit: contain;
+    cursor: pointer;
+    width:100%;
+}
+
+.source-code-demo{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.source-code-demo svg{
+    transition: fill 500ms;
+}
+.source-code-demo:hover svg{
+    fill:var(--pink-color);
+}
+.project-description{
+    transition:color 1s
+}
+.project-description:hover{
+    color:white
+}

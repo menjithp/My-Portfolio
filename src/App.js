@@ -1,27 +1,38 @@
-import './App.css';
+import Navbar from "./modules/navbar";
+import Hero from './modules/Hero'
+import About from './modules/about'
+import Summary from './modules/summary'
+import Experience from './modules/experience'
+import Portfolio from "./modules/portfolio";
+import Contact from "./modules/contact";
+import Footer from './modules/Footer'
+
+
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+
+import './App.css'
+import { useEffect } from "react";
 
 function App() {
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  const islaptop=/laptop/i.test(navigator.userAgent)
+
+  useEffect(()=>{
+    if (islaptop || !isMobile){
+        document.body.classList.add("laptop-scrollbar")
+    }
+  },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+    <div>
+      <Navbar /> 
+      <Hero />
+      <About />
+      <Summary />
+      <Experience />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }

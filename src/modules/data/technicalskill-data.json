@@ -1,0 +1,32 @@
+[
+{
+    "label":"HTML5",
+    "percent":"85",
+    "className":"html"
+},
+{
+    "label":"CSS3",
+    "percent":"70",
+    "className":"css"
+},
+{
+    "label":"Javascript ES6",
+    "percent":"80",
+    "className":"javascript"
+},
+{
+    "label":"React 17+",
+    "percent":"85",
+    "className":"react"
+},
+{
+    "label":"Redux",
+    "percent":"75",
+    "className":"redux"
+},
+{
+    "label":"Bootstrap5",
+    "percent":"85",
+    "className":"bootstrap"
+}
+]

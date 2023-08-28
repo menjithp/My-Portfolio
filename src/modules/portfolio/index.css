@@ -1,0 +1,20 @@
+.portfolio-section{
+    padding-top:2rem;
+    padding-bottom:4rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    border-bottom:1px solid var(--border-bottom-color);
+}
+@media screen and (max-width:768px) {
+    .portfolio-section{
+    margin-left:0rem;
+    margin-right:0rem;
+    }
+}
+.portfolio-section .carousel-indicators{
+    margin-bottom: 0 !important;
+}
+
+.pink-color{
+    color:var(--pink-color)
+}
