@@ -1,14 +1,21 @@
 [{
     "title":"Movie Browser",
     "description":"Users can search for upcoming Movies and filter upcoming movies",
-    "image":"leo.jpg",
-    "git-link":"https://github.com/menjithp/Movie_App_Testing_Provider_Redux/",
-    "demo-link":"https://movie-app-testing-provider-redux.vercel.app/"
+    "image":"movie.jpg",
+    "git-link":"https://github.com/menjithp/Movie-App-Basic/",
+    "demo-link":"https://primez-movie.vercel.app/"
 },{
-    "title":"My Portfolio",
-    "description":"Website currently user viewing.Created with React JS",
-    "image":"my_portfolio.png",
-    "git-link":"",
-    "demo-link":""
+    "title":"Movie Trailer",
+    "description":"User can search for movie and play trailer of it..",
+    "image":"trailer.png",
+    "git-link":"https://github.com/menjithp/Movie-App-Trailer/",
+    "demo-link":"https://primez-trailer.vercel.app/"
+},
+    ,{
+    "title":"Movie IMDb",
+    "description":"Clone of IMDb site. Site shows review of currently popular flims",
+    "image":"imdb.png",
+    "git-link":"https://github.com/menjithp/Movie-App-IMDb/",
+    "demo-link":"https://primez-imdb.vercel.app/"
 }
 ]
