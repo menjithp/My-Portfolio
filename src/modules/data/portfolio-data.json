@@ -7,14 +7,14 @@
 },{
     "title":"Movie Trailer",
     "description":"User can search for movie and play trailer of it..",
-    "image":"trailer.png",
+    "image":"trailer.jpg",
     "git-link":"https://github.com/menjithp/Movie-App-Trailer/",
     "demo-link":"https://primez-trailer.vercel.app/"
 },
     ,{
     "title":"Movie IMDb",
     "description":"Clone of IMDb site. Site shows review of currently popular flims",
-    "image":"imdb.png",
+    "image":"imdb.jpg",
     "git-link":"https://github.com/menjithp/Movie-App-IMDb/",
     "demo-link":"https://primez-imdb.vercel.app/"
 }
