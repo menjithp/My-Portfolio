@@ -12,7 +12,7 @@ export default ()=>{
     return <div className={`site-quote w-100 align-items-center justify-content-between mx-2 ${state?"show":''}`}>
             <div className='sentences d-flex align-items-center justify-content-center gap-2 flex-grow-1 text-white-50 text-center'>
             <div class="wrapper">
-                <h1>Your are seeing Optimus Prime.Give me Chance.I will show My Prime</h1>
+                <h1>Give me chance inreturn I will give my prime</h1>
                 </div>
        
             </div>
