@@ -20,7 +20,7 @@ return<div className='hero-section' id="Home">
             if (videoref.current.paused){videoref.current.play();setState(true)}
             else {videoref.current.pause();setState(false)}
         }}>
-            <source src={`hero-videos/${isMobile?"kutti_puli.mp4":"battle_scene_tessa.mp4"}`} type="video/mp4" />
+            <source src={`hero-videos/${isMobile?"kutti_puli.mp4":"pacific_rim_laptop.mp4"}`} type="video/mp4" />
         </video>
         <span className="position-absolute video-play-container text-center rounded">
         {state1 ?  <Button className='not-show  audio-play-button' onClick={()=>{videoref.current.muted=true;setState1(false)}}>mute</Button>
