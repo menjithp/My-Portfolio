@@ -1,8 +1,8 @@
 [{
-    "title":"Movie Browser Basic",
+    "title":"Movie Browser 1",
     "description":"Basic movie App which displays <span class='color-it'><b>upcoming movies</b></span> and details of individual movies.User can also filter movies based on input.",
     "image":"movie.jpg",
-    "git-link":"https://github.com/menjithp/Movie-App-Basic/",
+    "git-link":"https://github.com/menjithp/Movie-App-1/",
     "demo-link":"https://primez-movie.vercel.app/",
     "tools":"React 18, Redux Toolkit, Context Api, Jest, React Testing library(RTL), Bootstrap5, MovieDb",
     "Approach":"Test Driven development"
@@ -22,6 +22,14 @@
     "git-link":"https://github.com/menjithp/Movie-App-IMDb/",
     "demo-link":"https://primez-imdb.vercel.app/",
     "tools":"React 18, MovieDb, React carousel",
+    "Approach":"Development"
+},  {
+    "title":"Movie Browser 2",
+    "description":"<span class='color-it'><b>Advanced version of Movie Basic app</b></span> . App shows upcoming ,popular, latest movies and shows details of it .User can also search their desired movie &  get details of it",
+    "image":"leo2.jpg",
+    "git-link":"https://github.com/menjithp/Movie-App-2/",
+    "demo-link":"https://primez-movietail.vercel.app/",
+    "tools":"React 18, MovieDb, Tailwind css",
     "Approach":"Development"
 }
 ]
