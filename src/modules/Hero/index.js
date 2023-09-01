@@ -45,8 +45,8 @@ return<div className='hero-section' id="Home">
             <source src={`hero-videos/${isMobile?"kutti_puli.mp4":"1024p.mp4"}`} type="video/mp4" />
         </video>
         
-        {state2 && <span className="click-anywhere wrapper position-absolute start-50 top-50 end-50">
-                <h1 className="fw-bold-1000">Click Anywhere</h1>
+         {state2 && <span className="click-anywhere wrapper position-absolute start-50 top-50">
+                <h1 className={`fw-bold-1000 ${isMobile?"fs-1":"fs-5"}`}>Click Anywhere</h1>
         </span>}
        
         
