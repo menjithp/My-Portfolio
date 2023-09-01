@@ -45,17 +45,26 @@ return<div className='hero-section' id="Home">
             <source src={`hero-videos/${isMobile?"kutti_puli.mp4":"1024p.mp4"}`} type="video/mp4" />
         </video>
         
-         {state2 && <span className="click-anywhere wrapper position-absolute start-50 top-50">
+        {state2 && <span className="click-anywhere wrapper position-absolute start-50 top-50">
                 <h1 className={`fw-bold-1000 ${isMobile?"fs-1":"fs-5"}`}>Click Anywhere</h1>
         </span>}
        
         
         <span className="position-absolute video-play-container text-center rounded">
         {state1 ?  <Button className='not-show  audio-play-button' onClick={()=>{videoref.current.muted=true;setState1(false)}}>mute</Button>
-            :<Button className='audio-play-button' onClick={()=>{videoref.current.muted=false;setState1(true)}}>unmute</Button>
+            :<Button className={`${!state?"not-show":""} audio-play-button`} onClick={()=>{videoref.current.muted=false;setState1(true)}}>unmute</Button>
             }&nbsp;&nbsp;
-          {state ?  <Button className='video-play-button' onClick={()=>{videoref.current.pause();setState(false)}}>Stop</Button>
-            :<Button className='not-show video-play-button' onClick={()=>{videoref.current.play();setState(true)}}>Play</Button>
+          {state ?  <Button className='video-play-button' onClick={()=>{videoref.current.pause();
+          setState(false)
+          setState1(false)
+          videoref.current.muted=true
+        }}>Stop</Button>
+            :<Button className='not-show video-play-button' onClick={()=>{videoref.current.play();
+                setState(true);
+                setState1(true)
+                videoref.current.muted=false
+               
+            }}>Play</Button>
             }
         </span>
     </div>
