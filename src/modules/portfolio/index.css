@@ -18,3 +18,21 @@
 .pink-color{
     color:var(--pink-color)
 }
+
+
+@media screen and (max-width:768px) {
+.portfolio-section .carousel-control-prev{
+    justify-content: flex-start !important;
+}
+
+.portfolio-section .carousel-control-next{
+
+    justify-content: flex-end !important;
+}
+}
+.portfolio-section .carousel-indicators button{
+
+    border-radius: 50%;
+    height: 6px;
+    width:6px;
+}

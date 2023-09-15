@@ -1,4 +1,13 @@
 [{
+    "title":"V.V.AIRTRAVELS",
+    "description":"<span class='color-it'><b>Next JS App</b></span> . It's a foreign Job consultancy site .Admin of the app can login with Google Account and do update its contents.Authentication by next-auth & backend by next api routes and storage by MongoDB",
+    "image":"vv-travels.jpg",
+    "git-link":"https://github.com/menjithp/V.V.AIR-TRAVELS-AGENCY/",
+    "demo-link":"https://vv-airtravels.vercel.app/",
+    "tools":"Next JS, MongoDB, Next Auth, Next Api",
+    "Approach":"Development"
+},
+{
     "title":"Movie Browser 1",
     "description":"Basic movie App which displays <span class='color-it'><b>upcoming movies</b></span> and details of individual movies.User can also filter movies based on input.",
     "image":"movie.jpg",
