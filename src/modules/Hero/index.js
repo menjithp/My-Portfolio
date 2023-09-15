@@ -28,11 +28,11 @@ export default ()=>{
         })
 
     }
-    
+
   
 return<div className='hero-section' id="Home">
     <div className={`${isMobile ?"change-video-value":""} video-container position-relative`}>
-        <video ref={videoref} autoPlay muted  loop onLoadedData={()=>{
+        <video  ref={videoref} autoPlay muted  loop onLoadedData={()=>{
                  document.querySelector(".video-play-container").classList.add("opacity-one")
                  document.querySelector(".click-anywhere").classList.add("opacity-one")
                  document.querySelector(".hero-section").addEventListener('click',callback)
@@ -42,7 +42,7 @@ return<div className='hero-section' id="Home">
             document.querySelector(".video-play-container").classList.add("opacity-one")
             document.querySelector(".header").classList.add("header-opacity")
         }}>
-            <source src={`hero-videos/${isMobile?"kutti_puli.mp4":"1024p.mp4"}`} type="video/mp4" />
+            <source src={`hero-videos/${isMobile?"kutti_puli.mp4":"kgf.mp4"}`} type="video/mp4" />
         </video>
         
         {state2 && <span className="click-anywhere wrapper position-absolute start-50 top-50">
