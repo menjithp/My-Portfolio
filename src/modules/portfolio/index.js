@@ -49,7 +49,7 @@ return <div className='portfolio-section' id='Portfolio'>
       </div>)}
   </div>
 {project_data.map((item,index)=><div key={index} 
-className={`carousel-item py-5 ${index===0 ?"active":""}`} data-bs-interval="4000">
+className={`carousel-item py-5 ${index===0 ?"active":""}`} data-bs-interval={4000}>
        <Card title={item.title} 
        des={item.description} src={item.image}
        git_link={item["git-link"]} demo_link={item["demo-link"]} tools={item.tools} Approach={item.Approach} />
