@@ -3,7 +3,7 @@
     "description":"<span class='color-it'><b>Next JS App</b></span> . It's a foreign Job consultancy site .Admin of the app can login with Google Account and do update its contents.Authentication by next-auth & backend by next api routes and storage by MongoDB",
     "image":"vv-travels.jpg",
     "git-link":"https://github.com/menjithp/V.V.AIR-TRAVELS-AGENCY/",
-    "demo-link":"https://vv-airtravels.vercel.app/",
+    "demo-link":"https://airtravels.vercel.app/",
     "tools":"Next JS, MongoDB, Next Auth, Next Api",
     "Approach":"Development"
 },
