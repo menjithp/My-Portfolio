@@ -32,7 +32,7 @@ export default ()=>{
   
 return<div className='hero-section' id="Home">
     <div className={`${isMobile ?"change-video-value":""} video-container position-relative`}>
-        <video  ref={videoref} autoPlay muted  loop onLoadedData={()=>{
+        <video style={{rotate:"-90deg"}}  ref={videoref} autoPlay muted  loop onLoadedData={()=>{
                  document.querySelector(".video-play-container").classList.add("opacity-one")
                  document.querySelector(".click-anywhere").classList.add("opacity-one")
                  document.querySelector(".hero-section").addEventListener('click',callback)
