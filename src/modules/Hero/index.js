@@ -42,7 +42,7 @@ return<div className='hero-section' id="Home">
             document.querySelector(".video-play-container").classList.add("opacity-one")
             document.querySelector(".header").classList.add("header-opacity")
         }}>
-            <source src={`hero-videos/${isMobile?"30_compress.mp4":"30_compress.mp4"}`} type="video/mp4" />
+            <source src={`hero-videos/${isMobile?"30_compress.mp4":"car.mp4"}`} type="video/mp4" />
         </video>
         
         {state2 && <span className="click-anywhere wrapper position-absolute start-50 top-50">
